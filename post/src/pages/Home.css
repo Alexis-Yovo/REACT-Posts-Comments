@@ -1,0 +1,78 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .home-page h1 {
+    margin-top: 20px;
+  }
+
+  .posts-list {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post-card {
+    background-color: yellow;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .post-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .post-card-body h2 {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .post-card-body p {
+    margin: 0;
+  }
+
+  .post-card-body a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  .post-card-body a:hover {
+    text-decoration: underline;
+  }
+  .loading {
+    color:blue;
+  }
+  .error {
+    color:red;
+  }
+  .dark-blue-card {
+    background-color: rgb(3, 2, 70);
+    color: #ffffff;
+  }
+
+  .dark-blue-card h2, .dark-blue-card p, .dark-blue-card a {
+    color: #ffffff;
+  }
+
+  .dark-blue-card a {
+    text-decoration: none;
+    color: rgb(203, 165, 13);
+  }
+
+  .dark-blue-card a:hover {
+    text-decoration: underline;
+  }
